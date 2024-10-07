@@ -46,11 +46,35 @@ Modell eines Computers mit CPU, Speicher und I/O-Geräten.
 
 Teil der CPU, der Abläufe steuert und koordiniert.
 
-Rechenwerk
-Ein-Ausgabewerk
-Bussystem
-Speicherwerk
-Cache
-Register
-Zahlensystem
-Binärsystem (Dualsystem)
+## Rechenwerk
+
+Teil der CPU, der mathematische Berechnungen durchführt (ALU).
+
+## Ein-Ausgabewerk
+
+Kommuniziert mit der Außenwelt (Eingabe/Ausgabe).
+
+## Bussystem
+
+Übertragung von Daten zwischen Computerkomponenten.
+
+## Speicherwerk
+
+Teil des Computers, der Daten speichert (RAM, Festplatte).
+
+## Cache
+
+Schneller Zwischenspeicher für häufig genutzte Daten.
+
+## Register
+
+Kleine, schnelle Speicher in der CPU für aktuelle Daten.
+
+## Zahlensystem
+
+System zur Darstellung von Zahlen (z. B. Dezimal, Binär).
+
+## Binärsystem (Dualsystem)
+
+Zahlensystem mit nur zwei Ziffern (0 und 1).
+
