@@ -22,9 +22,8 @@
 
 	A: **Den Stellenwert einer Stelle ermittelt man, indem man die Basis des Zahlensystems mit der Potenz der Position der Stelle multipliziert. Die Potenz entspricht der Position der Ziffer von rechts nach links, beginnend bei 0.**
 
-6 Wie wird die Wertigkeit einer Zahl im Stellenwertsystem ermittelt? Bringe ein Beispiel anhand des Dezimalsystems (Basis=10)
-
-	A: **Die **Wertigkeit** einer Zahl im Stellenwertsystem wird ermittelt, indem man die Produkte der Ziffern mit ihren entsprechenden Stellenwerten summiert.**
+6 Wie wird die Wertigkeit einer Zahl im Stellenwertsystem ermittelt? Bringe ein Beispiel anhand des Dezimalsystems (Basis=10).
+	A: Die **Wertigkeit** einer Zahl im Stellenwertsystem wird ermittelt, indem man die Produkte der Ziffern mit ihren entsprechenden Stellenwerten summiert.
 
 **Beispiel im Dezimalsystem (Basis 10):**  
 Für die Zahl **452**:
@@ -37,6 +36,7 @@ Für die Zahl **452**:
 \(400 + 50 + 2 = 452\)**
 
 7. Nenne Zahlensysteme, die du im Alltag verwendest!
+
 	A: **Im Alltag verwenden wir hauptsächlich folgende Zahlensysteme:
 
 1. **Dezimalsystem (Basis 10):** Für alltägliche Rechnungen und Zahlen.
@@ -45,6 +45,7 @@ Für die Zahl **452**:
 4. **Römisches Zahlensystem:** Für bestimmte historische oder kulturelle Kontexte (z. B. in Uhren oder Namen von Monarchen).**
 
 8. Welche Zahlensysteme sind in der IT wichtig?
+   
 	A: **In der IT sind folgende Zahlensysteme besonders wichtig:
 
 1. **Binärsystem (Basis 2):** Grundlage der digitalen Technik, da Computer mit 0 und 1 arbeiten.
