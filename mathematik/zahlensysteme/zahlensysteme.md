@@ -4,9 +4,7 @@
 
 1. Was sind Zahlensysteme?
 
-	A: **Zahlensysteme sind Methoden zur Darstellung von Zahlen mithilfe bestimmter Ziffern und einer Basis. Beispiele sind das Dezimalsystem (Basis 10), das
-
-Binärsystem (Basis 2), das Hexadezimalsystem (Basis 16) und das Oktalsystem (Basis 8). Sie definieren, wie Zahlen geschrieben und berechnet werden.**
+	A: **Zahlensysteme sind Methoden zur Darstellung von Zahlen mithilfe bestimmter Ziffern und einer Basis. Beispiele sind das Dezimalsystem (Basis 10), das Binärsystem (Basis 2), das Hexadezimalsystem (Basis 16) und das Oktalsystem (Basis 8). Sie definieren, wie Zahlen geschrieben und berechnet werden.**
 
 3. Was sind Stellenwertsysteme und wie funktionieren sie?
 
@@ -26,7 +24,7 @@ Binärsystem (Basis 2), das Hexadezimalsystem (Basis 16) und das Oktalsystem (Ba
 
 6 Wie wird die Wertigkeit einer Zahl im Stellenwertsystem ermittelt? Bringe ein Beispiel anhand des Dezimalsystems (Basis=10)
 
-	A: **Die **Wertigkeit** einer Zahl im Stellenwertsystem wird ermittelt, indem man die Produkte der Ziffern mit ihren entsprechenden Stellenwerten summiert. 
+	A: **Die **Wertigkeit** einer Zahl im Stellenwertsystem wird ermittelt, indem man die Produkte der Ziffern mit ihren entsprechenden Stellenwerten summiert.**
 
 **Beispiel im Dezimalsystem (Basis 10):**  
 Für die Zahl **452**:
