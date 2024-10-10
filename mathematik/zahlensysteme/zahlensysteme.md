@@ -53,21 +53,21 @@ Für die Zahl **452**:
 
 	A: Im Alltag verwenden wir hauptsächlich folgende Zahlensysteme:
 
-1. **Dezimalsystem (Basis 10):** Für alltägliche Rechnungen und Zahlen.
-2. **Binärsystem (Basis 2):** In der Informatik und digitalen Geräten.
-3. **Hexadezimalsystem (Basis 16):** In der Programmierung und Computertechnik.
-4. **Römisches Zahlensystem:** Für bestimmte historische oder kulturelle Kontexte (z. B. in Uhren oder Namen von Monarchen).**
+- **Dezimalsystem (Basis 10):** Für alltägliche Rechnungen und Zahlen.
+- **Binärsystem (Basis 2):** In der Informatik und digitalen Geräten.
+- **Hexadezimalsystem (Basis 16):** In der Programmierung und Computertechnik.
+- **Römisches Zahlensystem:** Für bestimmte historische oder kulturelle Kontexte (z. B. in Uhren oder Namen von Monarchen).
 
 
 
 8. ### **Welche Zahlensysteme sind in der IT wichtig?**
   
-	A: **In der IT sind folgende Zahlensysteme besonders wichtig:
+	A: **In der IT sind folgende Zahlensysteme besonders wichtig:**
 
-1. **Binärsystem (Basis 2):** Grundlage der digitalen Technik, da Computer mit 0 und 1 arbeiten.
-2. **Hexadezimalsystem (Basis 16):** Wird häufig in der Programmierung verwendet, insbesondere zur Darstellung von Speicheradressen und Farbwerten.
-3. **Oktalsystem (Basis 8):** Weniger verbreitet, aber in einigen Unix-Systemen und älteren Programmiersprachen genutzt.
-4. **Dezimalsystem (Basis 10):** Für Benutzereingaben und Ausgaben in Anwendungen.**
+- **Binärsystem (Basis 2):** Grundlage der digitalen Technik, da Computer mit 0 und 1 arbeiten.
+- **Hexadezimalsystem (Basis 16):** Wird häufig in der Programmierung verwendet, insbesondere zur Darstellung von Speicheradressen und Farbwerten.
+- **Oktalsystem (Basis 8):** Weniger verbreitet, aber in einigen Unix-Systemen und älteren Programmiersprachen genutzt.
+- **Dezimalsystem (Basis 10):** Für Benutzereingaben und Ausgaben in Anwendungen.
 
 
 
