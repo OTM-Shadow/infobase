@@ -2,34 +2,72 @@
 
 ### 1. Erkläre die Aufgabe des Mainboards!
 
-- Das mainboard (motherboard) ist die Zentrale, die alle Komponente des PCs zusammen verbindet und denen auch Strom Verteilt.
+Das Mainboard, auch als Hauptplatine oder **Motherboard** bezeichnet, ist die zentrale Platine eines Computers, die alle wichtigen Komponenten miteinander verbindet. 
+
+Es ist verantwortlich für die Kommunikation zwischen der CPU, dem Arbeitsspeicher, den Erweiterungskarten, dem Speicher und anderen Peripheriegeräten. Zu den Hauptaufgaben gehören:
+
+- **Stromverteilung**: Bereitstellung von Strom für andere Komponenten.
+- **Datenübertragung**: Ermöglichen der Kommunikation zwischen der CPU, dem RAM und anderen Geräten.
+- **Erweiterungsmöglichkeiten**: Bereitstellung von Steckplätzen für Erweiterungskarten und andere Hardware.
+- **Anschlussmöglichkeiten**: Bereitstellung von Ports für externe Geräte, wie USB, HDMI, Ethernet usw.
+- **BIOS/UEFI-Firmware**: Bereitstellung eines grundlegenden Systems, um den Computer zu starten.[^uefi]
+
+
+[^uefi]: Die UEFI Firmware ist Software welche auf einem EEPROM Speicherchip am Mainboard hinterlegt ist und geladen wird wenn der Computer gestartet wird
+
 ---------------------------
 ### 2. Was ist der Formfaktor des Mainboards? Erstelle eine Tabelle mit verschiedenen Standards, ihren Maßen und typischen Einsatzgebieten!
 
-- Der Formfaktor des Mainboards sagt, wie und wo wird das Board befestigt
-- ATX Mainboard kann nür auf passende Gehäuse installiert werden!
+Der Formfaktor des Mainboards bestimmt wie und wo das Mainboard in einem Gehäuse befestigt wird. Außerdem gibt er die Größe des Mainboards sowie die Maße und Position des hinteren I/O Shields (die externen Anschlüsse hinten am Gehäuse).
+
+Außerdem wird spezifiziert, wo sich die Slots für Erweiterungskarten befinden müssen.
+
+Der ATX Standard z.B. ist ein sehr umfangreicher Standard für Motherboards: https://web.archive.org/web/20120725150314/http://www.formfactors.org/developer/specs/atx2_2.pdf (Seite 8 enthält einen Überblick)
+
+Der Formfaktor beschreibt die physikalischen Maße und die Layout-Spezifikationen eines Mainboards. Hier ist eine Tabelle mit verschiedenen Standards:
+
+| Formfaktor     | Abmessungen                     | Typische Einsatzgebiete            |
+|----------------|---------------------------------|------------------------------------|
+| ATX            | 305 mm x 244 mm                 | Desktop-PCs, Gaming-Systeme        |
+| Micro-ATX      | 244 mm x 244 mm                 | Kompakte Desktop-PCs               |
+| Mini-ITX       | 170 mm x 170 mm                 | HTPCs (Home Theater PCs), sehr kompakte Systeme |
+| E-ATX          | 305 mm x 330 mm                 | High-End Gaming-PCs, Workstations  |
+| XL-ATX         | 345 mm x 262 mm                 | Extreme Gaming-Systeme             |
+
+Es gibt außerdem noch eine Vielzahl an weiteren Standards.
+
+https://en.wikipedia.org/wiki/Motherboard_form_factor#Tabular_information
   
 -------------------------
 ### 3. Nenne die wichtigsten Komponenten auf dem Mainboard! Gib zu jeder Komponente Bilder an!
 
-- CPU (Prozessor)
+- CPU-Sockel, umgeben von VRMs (Voltage Regulator Modules)
+- RAM-Slots
+- Chipsatz
+- Interne Anschlüsse & Header (z.B. SATA, m.2, interne USB Header)
+- Slots für Bussysteme wie PCI/PCIe
+- Stromanschlüsse (namentlich 24p ATX + 4/8p CPU Power)
+- BIOS Batterie
+- BIOS/UEFI EEPROM
+- etwaige notwendige Prozessoren für weitere Funktionalität des Mainboards (z.B. eigener Soundprozessor, etc.)
   
-![CPU img](https://github.com/user-attachments/assets/204dc13d-d935-4677-a016-dac9602a4523)
-
-- Festplatte (SSD oder HDD)
-  
-![hddSdd](https://github.com/user-attachments/assets/15a6b663-0ebe-4973-a30e-df796aa8f572)
-
-- RAM (Random Access Memory - Arbeitsspeicher)
-  
-![ram](https://github.com/user-attachments/assets/3d05168c-b69c-4037-a5fd-29c8720bc6e9)
-
-- GPU (Grafikprozessor)
-  
-![gpu](https://github.com/user-attachments/assets/746cbc7c-930a-439f-8a29-7e47fe07a206)
-
 --------------------
 ### 4. Nenne die wichtigsten Bussysteme für Mainboards! Erstelle eine kurze Liste wichtigster Erweiterungsbussysteme und in etwa dem Zeitbereich ihrer Verbreitung!
+Heutzutage finden wir 2 Bussysteme für Erweiterungskarten:
+* PCIe (Peripheral Component Interconnect express) (aktuell, ca seit 2007 groß im Umlauf)
+* PCI (Peripheral Component Interconnect) (Mitte 90er bis Anfang 2000er), veraltet
+
+Die meisten Mainboards unterstützen außerdem einen SPI Bus welcher für die Kommunikation mit internen Systemrelevanten Komponenten verwendet wird (z.B. TPM Module)
+
+Veraltete Bussysteme:
+* PCI-x (extended PCI für Server)
+* AGP (Accelerated Graphics Port) - Verbreitung: 1997 bis 2000er Jahre
+* ISA/EISA (Extended Industry Standard Architecture)
+* VESA Local Bus
+* etwaige Riser-Bussysteme für spezielle Karten
+* uvm.
+
+https://en.wikipedia.org/wiki/Bus_(computing)#Examples_of_internal/external_computer_buses
 
 ---------------------
 ### 5. Nenne die wichtigsten externen Anschlüsse des Mainboards und ihre Aufgabe! Gib zu jedem Anschluss Bilder an!
@@ -50,8 +88,31 @@
 
 #### Quelle: https://josuweit-it.de/uebersicht-pc-anschluesse/
 
+Andere evtl. veraltete Schnittstellen:
+* 3.5mm Klinkenanschluss (AUX) (TRS, TRRS, bei Notebooks auch TRRRS)
+* Firewire IEEE1394
+* COM / Console Port (D-Sub 9 Stecker, m. oder w.)
+* LPT / Line Printer (D-Sub 25 Stecker)
+* Joystick Port (D-Sub 15, 2 Reihen)
+
 -----------------------
 ### 6. Nenne die wichtigsten internen Anschlüsse des Mainboards und ihre Aufgabe! Gib zu jedem Anschluss Bilder an!
+* RAM Slots
+* PCI/e Slots
+* CPU Sockel
+* USB3 Header für USB3 am Frontpanel
+* SATA Anschlüsse
+* m.2 Slots
+* ATX 24p Power Connector
+* 4+4p CPU Power
+* Fan Header (Für Lüfter)
+* Frontpanel-Connector für Einschaltknopf, Reset und LEDs
+* Interner Audio Anschluss
+* Etwaige Interfaces wie USB, etc. welche nach außen ausgeführt werden
+
+Jeweilige interne Anschlüsse vom jeweiligen Board findet man in der Bedienungsanleitung.
 
 -----------------------
 ### 7. Was ist eine Riser-Karte?
+
+Eine Riser-Karte ist eine Erweiterungskarte, die es ermöglicht, andere Karten parallel zum Mainboard zu installieren, um Platz zu sparen oder spezielle Gehäusekonfigurationen zu ermöglichen.
