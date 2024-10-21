@@ -3,7 +3,7 @@
 ### 1. Erkläre die Aufgabe des Mainboards!
 
 - Das mainboard (motherboard) ist die Zentrale, die alle Komponente des PCs zusammen verbindet und denen auch Strom Verteilt.
-
+---------------------------
 ### 2. Was ist der Formfaktor des Mainboards? Erstelle eine Tabelle mit verschiedenen Standards, ihren Maßen und typischen Einsatzgebieten!
 
 - Der Formfaktor des Mainboards sagt, wie und wo wird das Board befestigt
@@ -31,6 +31,7 @@
 --------------------
 ### 4. Nenne die wichtigsten Bussysteme für Mainboards! Erstelle eine kurze Liste wichtigster Erweiterungsbussysteme und in etwa dem Zeitbereich ihrer Verbreitung!
 
+---------------------
 ### 5. Nenne die wichtigsten externen Anschlüsse des Mainboards und ihre Aufgabe! Gib zu jedem Anschluss Bilder an!
 | Anschluss Typ       | Bild                                   | Beschreibung |
 | ------------------- | -------------------------------------- | ------------ |
@@ -47,8 +48,10 @@
 | Ethernet RJ-45      | ![image](https://github.com/user-attachments/assets/8a7df004-7349-4699-9cf8-fae8c3aa9bfd) | Standardanschluss für ein Netzwerkkabel. Die Form sagt nichts über die Geschwindigkeit aus. |
 | PS/2                | ![image](https://github.com/user-attachments/assets/0cc0890d-f23f-4c3b-88f8-b865fbd710f8) ![image](https://github.com/user-attachments/assets/8b3ac78d-4368-4d9d-b4ca-ffab98d9e7b4) | Ein alter Anschluss für Maus und Tastatur. Grün für die Maus und Lila für die Tastatur. Nach dem Anschließen sind die Geräte erst nach einem Neustart nutzbar. |
 
-### Quelle: https://josuweit-it.de/uebersicht-pc-anschluesse/
+#### Quelle: https://josuweit-it.de/uebersicht-pc-anschluesse/
 
+-----------------------
 ### 6. Nenne die wichtigsten internen Anschlüsse des Mainboards und ihre Aufgabe! Gib zu jedem Anschluss Bilder an!
 
+-----------------------
 ### 7. Was ist eine Riser-Karte?
