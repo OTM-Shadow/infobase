@@ -7,7 +7,7 @@
 * Main
 * Adjust system date & system time 
 
-2.	Welche Spannungen sind für den Computer wichtig und wo sieht man diese?
+2.	**Welche Spannungen sind für den Computer wichtig und wo sieht man diese?**
 
 * Advanced Settings
 * Monitor
@@ -18,7 +18,7 @@
   * 12V Voltage - Wichtig
 * Diese Spannungen werden vom Powersuply ans mainboard verteilt und wenn diese nicht die richtige Voltage entsprechen dann bekommt der mainboard nicht genug Strom und "könnte" daher nicht starten oder funktioniert nicht einwandfrei.
 
-3.	Wo kann man einstellen, dass das System nach einem Stromausfall automatisch wieder hochfährt und wieso sollte man das wollen?
+3.	**Wo kann man einstellen, dass das System nach einem Stromausfall automatisch wieder hochfährt und wieso sollte man das wollen?**
 
 * Advanced Settings
 * Boot
@@ -28,14 +28,14 @@
 
 *Es ist praktisch bei Servern z.B. wenn auf einem Server eine Website läuft und Strom ausfällt, dass nicht die Einschalttaste betetigt werden muss (nach einem Stromausfall) um die Website wieder laufen zu lassen*
  
-4.	Was ist die Bootreihenfolge und wo ändert man diese?
+4.	**Was ist die Bootreihenfolge und wo ändert man diese?**
 
 * Advanced Settings
 * Boot
 * Boot Option Priorties
 * Dort kann man die Boot Reihenfolge ändern 
 
-5.	Wo kann man die grundlegenden Informationen über verbaute Hardware im BIOS/UEFI finden?
+5.	**Wo kann man die grundlegenden Informationen über verbaute Hardware im BIOS/UEFI finden?**
 
 * Advanced Settings
 * Main
@@ -43,7 +43,7 @@
   * CPU information
   * Memory information
 
-6.	Wo kann man die Frontpanel-USB-Anschlüsse deaktivieren?
+6.	**Wo kann man die Frontpanel-USB-Anschlüsse deaktivieren?**
 
 * Advanced Settings
 * Advanced
@@ -52,14 +52,14 @@
 * Beliebige USBs ein/ausschalten
   * Achten auf Mainboard bezeichnungen! Jede USB hat eine Beschriftung am Mainboard und diese könnte man aus/einschalten
 
-7.	Wo kann man den Num-Lock standardmäßig anschalten?
+7.	**Wo kann man den Num-Lock standardmäßig anschalten?**
 
 * Advanced settings
 * Boot
 * Bootup num-lock state
 * On/off
 
-8.	Wo kann man die Onboard-Netzwerkkarte deaktivieren?
+8.	**Wo kann man die Onboard-Netzwerkkarte deaktivieren?**
 
 * Advanced Settings
 * Advanced
@@ -67,7 +67,7 @@
 * Realtek LAN Controller ein/ausschalten
   * Default: Ausgeschaltet!
 
-9.	Wo kann man die Lüfter des Systems regeln und welche Vorteile bringt das?
+9.	**Wo kann man die Lüfter des Systems regeln und welche Vorteile bringt das?**
 
 * Advanced Settings
 * Monitor
@@ -75,7 +75,7 @@
   * Das stellt man ein wenn der Kühlkörper am CPU nicht ausreichend kühlen kann, um den Prozess zu beschleunigen
 
 
-10.	Wo kann man ein BIOS-Passwort setzen? Welche Vorteile bringt das setzen eines BIOS-Passworts?
+10.	**Wo kann man ein BIOS-Passwort setzen? Welche Vorteile bringt das setzen eines BIOS-Passworts?**
 
 * Advanced Settings
 * Main
@@ -83,11 +83,11 @@
 * Administrator Password für BIOS/UEFI Setup
 * User Password für das Einschalten; Er fragt für den Passwort bevor er bootet
 
-12.	Was ist Wake-on-LAN und wo schaltet man dieses ein oder aus?
-13.	Was ist SecureBoot und wofür sollte man dies aktivieren bzw. deaktivieren?
-14.	Was ist CSM Support und wofür sollte man dies aktivieren bzw. deaktivieren?
-15.	Was ist Fast Boot und wofür sollte man dies aktivieren bzw. deaktivieren?
-16.	Was ist SMT bzw. Hyperthreading und wieso sollte man es aktivieren bzw. deaktivieren?
-17.	Was bringt ein BIOS/UEFI-Update und was ist dabei zu beachten?
-18.	Wie führt man ein BIOS-Update durch?
+12.	**Was ist Wake-on-LAN und wo schaltet man dieses ein oder aus?**
+13.	**Was ist SecureBoot und wofür sollte man dies aktivieren bzw. deaktivieren?**
+14.	**Was ist CSM Support und wofür sollte man dies aktivieren bzw. deaktivieren?**
+15.	**Was ist Fast Boot und wofür sollte man dies aktivieren bzw. deaktivieren?**
+16.	**Was ist SMT bzw. Hyperthreading und wieso sollte man es aktivieren bzw. deaktivieren?**
+17.	**Was bringt ein BIOS/UEFI-Update und was ist dabei zu beachten?**
+18.	**Wie führt man ein BIOS-Update durch?**
 
