@@ -47,7 +47,7 @@ Das EVA-Prinzip steht für Eingabe, Verarbeitung und Ausgabe – so funktioniert
 
 **ALU (Arithmetic Logic Unit)**
 
-Die ALU ist der Teil der CPU, der Berechnungen durchführt und logische Operationen wie ``UND`` anstellt.
+Die ALU ist der Teil der CPU, der Berechnungen durchführt und logische Operationen wie Vergleiche anstellt.
 
 **CPU (Central Processing Unit)**
 
