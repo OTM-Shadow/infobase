@@ -28,3 +28,6 @@
 
 **If that doesn’t work, I would also suggest you to refer the article from the manufacturer of Seagate on Windows will not allow me to safely remove my drive. If you would like me to provide additional advice, simply respond to this thread. I will get notified and I’ll reply to you as soon as I can and let us know if the above steps worked out for you.**
 
+https://www.seagate.com/gb/en/support/
+
+
